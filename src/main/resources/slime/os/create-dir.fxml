@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="10.0" xmlns="http://javafx.com/javafx/20" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="slime.os.controller.CreateDirectoryController" >
+<!--    <Label text="新建目录" style="-fx-font-size: 18; -fx-font-weight: bold;"/>-->
+    <GridPane hgap="10.0" vgap="10.0">
+        <Label text="目录名称:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+        <TextField fx:id="directoryNameField" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+    </GridPane>
+</VBox>

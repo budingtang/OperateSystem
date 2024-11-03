@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.TreeView?>
+<AnchorPane fx:id="anchorPane" prefHeight="800" prefWidth="1000" xmlns="http://javafx.com/javafx/20" xmlns:fx="http://javafx.com/fxml/1" fx:controller="slime.os.controller.FileManageController">
+    <stylesheets>
+                <URL value="@../../slime/os/css/main.css"/>
+    </stylesheets>
+    <SplitPane dividerPositions="0.3" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0">
+        <items>
+            <TreeView id="tree_view" fx:id="treeView"/>
+          <AnchorPane fx:id="rightPane"/>
+        </items>
+      </SplitPane>
+
+</AnchorPane>
